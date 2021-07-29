@@ -1,0 +1,15 @@
+//- Index.pug
+<!DOCTYPE html>
+html
+    head
+        title x
+    body
+        header
+            h1 x
+            p x
+            hr
+        nav
+block content
+    ul 
+        each x in newUser
+            li Name: #{x.name}, Dayofweek: #{x.day_of_week}, Time_start: #{x.time_start}, Time_end: #{x.time_end}
